@@ -18,7 +18,7 @@ jobs:
 
     steps:
 
-      - uses: zhulr7765/aliyun-sign@main
+      - uses: ImYrS/aliyun-auto-signin@main
 
         with:
 
@@ -26,7 +26,7 @@ jobs:
 
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
 
-          PUSH_TYPES: 'telegram,PushPlus'
+          PUSH_TYPES: 'telegram'
 
           DO_NOT_REWARD: 'true'
 

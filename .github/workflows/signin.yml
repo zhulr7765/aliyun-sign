@@ -26,7 +26,7 @@ jobs:
 
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
 
-          PUSH_TYPES: 'telegram'
+          PUSH_TYPES: 'telegram,ServerChan'
 
           DO_NOT_REWARD: 'true'
 

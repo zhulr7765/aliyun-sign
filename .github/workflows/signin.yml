@@ -32,7 +32,7 @@ jobs:
 
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
 
-          TELEGRAM_BOT_TOKEN: ${{ secrets.AAGlavHeshtv32EozAf4y7ftUq3Jed7tTJo }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
 
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 

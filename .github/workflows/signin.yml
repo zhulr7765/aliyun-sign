@@ -28,7 +28,7 @@ jobs:
 
           PUSH_TYPES: 'telegram'
 
-          DO_NOT_REWARD: 'true'
+          DO_NOT_REWARD: 'false'
 
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
 

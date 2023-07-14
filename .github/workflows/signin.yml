@@ -1,10 +1,10 @@
-name: 阿里签到
+name: 阿里云盘签到
 
 on:
 
   schedule:
 
-    - cron: '29 23 * * *'
+    - cron: '28 23 * * *'
 
   workflow_dispatch:
 
